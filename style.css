@@ -14,13 +14,13 @@ body{
     animation: xyz 20s infinite;
 }
 @keyframes xyz{
-    100%{
+    50%{
         background-image: url(img/banner\ 2.jpg);
         background-size: 100%;
         background-position: center center;
         background-repeat: no-repeat;
     }
-    /* 75%{
+    75%{
         background-image: url(img/banner\ 3.jpg);
         background-size: 100%;
         background-position: center center;
@@ -31,5 +31,5 @@ body{
         background-size: 100%;
         background-position: center center;
         background-repeat: no-repeat;
-    } */
+    }
 }
