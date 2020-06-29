@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+.sider{
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url(img/banner\ 1.jpg);
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    animation: xyz 20s infinite;
+}
+@keyframes xyz{
+    100%{
+        background-image: url(img/banner\ 2.jpg);
+        background-size: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+}
